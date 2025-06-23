@@ -1,0 +1,8 @@
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --save_dir ./output_tbsi --mode single  >train.log  2>&1 &
+python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --save_dir ./output1 --mode multiple --nproc_per_node 2 --vis_gpus '0,2'  # >train.log  2>&1 &
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --save_dir ./output4 --mode single  >train.log  2>&1 &
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --save_dir ./output --mode multiple --nproc_per_node 2 --vis_gpus '1,2' >train.log  2>&1 &
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_vtuav_15ep_sot --save_dir ./output_baseline --mode single  >train.log  2>&1 &
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_vtuav_15ep_sot --save_dir ./output_VTUAV_without_new-query --mode multiple --nproc_per_node 2 --vis_gpus '0,3' >train.log  2>&1 &
+# nohup python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_vtuav_15ep_sot_DropTrack --save_dir ./output_VTUAV3 --mode multiple --nproc_per_node 2 --vis_gpus '0,3' >train.log  2>&1 &
+# python tracking/train.py --script tbsi_track --config vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --save_dir ./output1 --mode single --nproc_per_node 1 --vis_gpus '0,2' # >train.log  2>&1 &

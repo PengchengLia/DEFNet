@@ -1,0 +1,10 @@
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --runid 10 --dataset_name 'lasher' --threads 8 --vis_gpus '0' >lasher.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --runid 10 --dataset_name 'rgbt234' --threads 8 --vis_gpus '1' >rgbt234.log  2>&1 &
+nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --runid 10 --dataset_name 'rgbt210' --threads 4 --vis_gpus '1' >rgbt210.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot --runid 10 --dataset_name 'gtot' --threads 2 --vis_gpus '3' >gtot.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_vtuav_15ep_sot --runid 5 --dataset_name 'vtuav' --threads 8 --vis_gpus '3' >vtuav.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_vtuav_15ep_sot_DropTrack --runid 5 --dataset_name 'vtuav' --threads 6 --vis_gpus '3' >vtuav.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --runid 10 --threads 4 --vis_gpus '2' >lasher.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --runid 10 --dataset_name 'rgbt234' --threads 4 --vis_gpus '2' >rgbt234.log  2>&1 &
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --runid 10 --dataset_name 'rgbt210' --threads 5 --vis_gpus '1' >rgbt210.log  2>&1 & 
+# nohup python tracking/test.py --tracker_name tbsi_track --tracker_param vitb_256_tbsi_32x1_1e4_lasher_15ep_sot_DropTrack --runid 10 --dataset_name 'gtot' --threads 2 --vis_gpus '1' >gtot.log  2>&1 & 
